@@ -15,7 +15,16 @@
     justify-content: center;
 }
 
-.container h1{
+.largeText{
     font-size: 80px;
     font-weight: 600;
 }
+
+.main { 
+    display: flex; 
+    justify-content: right;
+    flex-direction: column;
+  }
+.a, .b, .c { background: #efefef; border: 1px solid #999; }
+.b { text-align: center; }
+.c {align-content: flex-start;}
