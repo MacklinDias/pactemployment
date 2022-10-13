@@ -16,15 +16,32 @@
 }
 
 .largeText{
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 600;
+    padding: 50px;
 }
 
 .main { 
     display: flex; 
     justify-content: right;
-    flex-direction: column;
+    flex-direction: row-reverse;
   }
-.a, .b, .c { background: #efefef; border: 1px solid #999; }
+.a, .b { background: #efefef; border: 1px solid #999; }
 .b { text-align: center; }
-.c {align-content: flex-start;}
+
+.c{
+    padding-right: 50px;
+    color: #fff;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.padding{
+    padding: 50px;
+    margin: 50px;
+}
+
+.noDisplay{
+    display: none;
+}
