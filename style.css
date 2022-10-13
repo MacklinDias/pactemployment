@@ -42,6 +42,70 @@
     margin: 50px;
 }
 
+.center{
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.alignment {
+    position: absolute;
+    bottom: 170px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
 .noDisplay{
     display: none;
 }
+
+form input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+  }
+  
+  form button {
+    background: transparent;
+    border: 0;
+    color: #fff;
+  }
+
+  input[type=text] {
+    font-size: 75px;
+    color: #fff;
+    display: block;
+  }
+
+
+.hidden{
+    display: none;
+  }
+
+.show{
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+.fadeMe {
+    animation:fadeIn 1s linear;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity:0
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+
+
+
+
+  
