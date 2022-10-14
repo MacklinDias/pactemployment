@@ -42,7 +42,7 @@
 
 document.getElementById('threeSeconds').className += ' show fadeMe';
 
-}, 2500);
+}, 12500);
 
 
       </script>
@@ -65,7 +65,10 @@ document.getElementById('threeSeconds').className += ' show fadeMe';
   const val = document.querySelector('input').value;
   document.getElementById('shoo').className += ' show fadeMe';
   document.getElementById('shoo').innerHTML=`Hi, ${val}`;
-  console.log(val);
+  localStorage.setItem("name", val);
+  const retrieveItem = localStorage.getItem("name")
+  console.log(retrieveItem);
+  document.getElementById('threeSeconds').classList.add('toggle');  
 }
     </script>
 

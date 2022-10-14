@@ -122,6 +122,10 @@ form input[type=text] {
     align-items: center;
     justify-content: center;
   }
+.toggle{
+    animation:fadeOut 1s linear;
+    display: none;
+}
 
 .fadeMe {
     animation:fadeIn 1s linear;
