@@ -17,7 +17,7 @@
 </head>
 <body>
    
-        <span class="c noDisplay">Contact</span>
+        <span id="shoo" class="c hidden"></span>
    
     <div class="container largeText">
         <div class="typed-strings largeText ">
@@ -30,8 +30,9 @@
           
     </div>
     <div class="center" id="threeSeconds" class="hidden fadeMe">
-        <form class="alignment">
-        <input style="width: 470px;" type="text" id="demo" maxlength="20">
+        <form onsubmit="return false" id="form-id" class="alignment">
+        <input style="width: 470px;" id="tt" type="text" maxlength="20">
+        <input onclick="getVal()" class="alignment2" type="submit" value="SUBMIT">
         </form>
       </div>
     
@@ -41,9 +42,9 @@
 
 document.getElementById('threeSeconds').className += ' show fadeMe';
 
-}, 12500);
+}, 2500);
 
-document.getElementById("demo").focus();
+
       </script>
   
 
@@ -58,6 +59,15 @@ document.getElementById("demo").focus();
         loopCount: 1,
         });
       </script>
+
+<script>
+    function getVal() {
+  const val = document.querySelector('input').value;
+  document.getElementById('shoo').className += ' show fadeMe';
+  document.getElementById('shoo').innerHTML=`Hi, ${val}`;
+  console.log(val);
+}
+    </script>
 
 </body>
 </html>
