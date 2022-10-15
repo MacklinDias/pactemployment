@@ -20,14 +20,21 @@
         <span id="shoo" class="c hidden"></span>
    
     <div class="container largeText">
-        <div class="typed-strings largeText ">
+        <div class="typed-strings largeText demms ">
             <h1>Hi There!</h1>
             <p>Welcome to PACT.</p>
             <p>What is your name?</p>
         </div>
-          <span class="largeText" id="typed"></span>
+          <span class="largeText" id="typed"></span>   
           
-          
+          <div id="dems" class="container largeText hidden">
+            <div class="demoo-strings largeText ">
+                <h1>^5000 Hi you!</h1>
+                <p>tests 1.</p>
+                <p>testess</p>
+            </div>
+              <span  class="largeText" id="demoo"></span>       
+        </div>
     </div>
     <div class="center" id="threeSeconds" class="hidden fadeMe">
         <form onsubmit="return false" id="form-id" class="alignment">
@@ -37,12 +44,18 @@
       </div>
     
 
+
+     
+
+
+
+
     <script>
         setTimeout(function(){
 
 document.getElementById('threeSeconds').className += ' show fadeMe';
 
-}, 12500);
+}, 2500);
 
 
       </script>
@@ -61,6 +74,17 @@ document.getElementById('threeSeconds').className += ' show fadeMe';
       </script>
 
 <script>
+    var demooo = new Typed('#demoo', {
+    stringsElement: '.demoo-strings',
+    typeSpeed: 150,
+    backSpeed: 50,
+    loop:true,
+    loopCount: 1,
+    });
+  </script>
+
+
+<script>
     function getVal() {
   const val = document.querySelector('input').value;
   document.getElementById('shoo').className += ' show fadeMe';
@@ -69,6 +93,9 @@ document.getElementById('threeSeconds').className += ' show fadeMe';
   const retrieveItem = localStorage.getItem("name")
   console.log(retrieveItem);
   document.getElementById('threeSeconds').classList.add('toggle');  
+  document.getElementById('dems').classList.remove('hidden');  
+  document.getElementById("typed").style.display = "none";
+  document.querySelector(".typed-cursor").style.opacity = "0";
 }
     </script>
 
