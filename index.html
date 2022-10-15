@@ -29,9 +29,12 @@
           
           <div id="dems" class="container largeText hidden">
             <div class="demoo-strings largeText ">
-                <h1 id="sds">Hi you!</h1>
-                <p>tests 1.</p>
-                <p>testess</p>
+                <h1 id="sds"></h1>
+                <p>In a few minutes</p>
+                <p>you will be asked to</p>
+                <p>complete a form</p>
+                <p>please fill in the details carefully!</p>
+                <p>Are your ready?</p>
             </div>
               <span  class="largeText" id="demoo"></span>       
         </div>
@@ -55,7 +58,7 @@
 
 document.getElementById('threeSeconds').className += ' show fadeMe';
 
-}, 2500);
+}, 12500);
 
 
       </script>
@@ -92,7 +95,7 @@ document.getElementById('threeSeconds').className += ' show fadeMe';
     function getVal() {
   const val = document.querySelector('input').value;
   document.getElementById('shoo').className += ' show fadeMe';
-  document.getElementById('shoo').innerHTML=`Hi, ${val}`;
+  document.getElementById('shoo').innerHTML=`Welcome, ${val}`;
   localStorage.setItem("name", val);
   const retrieveItem = localStorage.getItem("name")
   console.log(retrieveItem);
@@ -100,7 +103,7 @@ document.getElementById('threeSeconds').className += ' show fadeMe';
   document.getElementById('dems').classList.remove('hidden');  
   document.getElementById("typed").style.display = "none";
   document.querySelector(".typed-cursor").style.opacity = "0";
-  document.getElementById('sds').innerHTML= "hi"
+  document.getElementById('sds').innerHTML= `Hi, ${val}`
   var demooo = new Typed('#demoo', {
     stringsElement: '.demoo-strings',
     typeSpeed: 150,
