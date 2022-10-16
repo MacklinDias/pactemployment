@@ -49,7 +49,7 @@
     
       <div class="center" id="fourSeconds" class="hidden fadeMe">
         <form onsubmit="return false" id="form-id" class="alignment">
-        <input onclick="getValue()" class="alignment3" type="submit" value="Yes, Let's Go!">
+        <input onclick="window.open('profile.html','_self')" class="alignment3" type="submit" value="Yes, Let's Go!">
         </form>
       </div>
 
@@ -63,7 +63,7 @@
 
 document.getElementById('threeSeconds').className += ' show fadeMe';
 
-}, 12500);
+}, 2500);
 
 
       </script>
@@ -80,20 +80,6 @@ document.getElementById('threeSeconds').className += ' show fadeMe';
         loopCount: 1,
         });
       </script>
-
-<!-- <script>
-
-    function myFunction (){
-    var demooo = new Typed('#demoo', {
-    stringsElement: '.demoo-strings',
-    typeSpeed: 150,
-    backSpeed: 50,
-    loop:true,
-    loopCount: 1,
-    });
-    }
- 
-  </script> -->
 
 
 <script>
@@ -121,9 +107,13 @@ document.getElementById('threeSeconds').className += ' show fadeMe';
 
 document.getElementById('fourSeconds').className += ' show fadeMe';
 
-}, 33500);
+}, 3500);
 }
 
+function getValue() {
+
+    Window.open("./pr")
+}
 
     </script>
 
