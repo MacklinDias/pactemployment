@@ -31,22 +31,27 @@
             <div class="demoo-strings largeText ">
                 <h1 id="sds"></h1>
                 <p>In a few minutes</p>
-                <p>you will be asked to</p>
-                <p>complete a form</p>
-                <p>please fill in the details carefully!</p>
+                <p>You will be asked</p>
+                <p>To complete a form</p>
+                <p>Please fill in the details carefully!</p>
                 <p>Are your ready?</p>
             </div>
-              <span  class="largeText" id="demoo"></span>       
+              <span  class="largeText" id="demoo"></span>  
+                   
         </div>
     </div>
     <div class="center" id="threeSeconds" class="hidden fadeMe">
         <form onsubmit="return false" id="form-id" class="alignment">
-        <input style="width: 470px;" id="tt" type="text" maxlength="20">
+        <input style="width: 470px;" type="text" maxlength="20">
         <input onclick="getVal()" class="alignment2" type="submit" value="SUBMIT">
         </form>
       </div>
     
-
+      <div class="center" id="fourSeconds" class="hidden fadeMe">
+        <form onsubmit="return false" id="form-id" class="alignment">
+        <input onclick="getValue()" class="alignment3" type="submit" value="Yes, Let's Go!">
+        </form>
+      </div>
 
      
 
@@ -111,7 +116,15 @@ document.getElementById('threeSeconds').className += ' show fadeMe';
     loop:true,
     loopCount: 1,
     });
+
+    setTimeout(function(){
+
+document.getElementById('fourSeconds').className += ' show fadeMe';
+
+}, 33500);
 }
+
+
     </script>
 
 </body>

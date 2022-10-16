@@ -82,6 +82,28 @@
     background: black;
 }
 
+
+.alignment3 {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  background: #04AA6D;
+  border: none;
+  cursor: pointer;
+}
+
+.alignment3:hover {
+  color: #fff;
+  background: black;
+}
+
 .noDisplay{
     display: none;
 }
