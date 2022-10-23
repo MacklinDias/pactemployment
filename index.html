@@ -63,7 +63,7 @@
 
 document.getElementById('threeSeconds').className += ' show fadeMe';
 
-}, 2500);
+}, 12500);
 
 
       </script>
@@ -107,14 +107,15 @@ document.getElementById('threeSeconds').className += ' show fadeMe';
 
 document.getElementById('fourSeconds').className += ' show fadeMe';
 
-}, 3500);
+}, 31500);
 }
 
-function getValue() {
-
-    Window.open("./pr")
+function play() {
+  var audio = new Audio('PACT.mp3');
+  audio.play();
 }
 
+play();
     </script>
 
 </body>
