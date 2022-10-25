@@ -34,7 +34,7 @@
                 <p>You will be asked</p>
                 <p>To complete a form</p>
                 <p>Please fill in the details carefully!</p>
-                <p>Are your ready?</p>
+                <p>Are you ready?</p>
             </div>
               <span  class="largeText" id="demoo"></span>  
                    
@@ -108,6 +108,15 @@ document.getElementById('threeSeconds').className += ' show fadeMe';
 document.getElementById('fourSeconds').className += ' show fadeMe';
 
 }, 31500);
+
+        function played() {
+          let music = new Audio("PACT-2.mp3");
+          music.play();
+          console.log("playing");
+        }
+
+        played();
+
 }
 
       function play() {
