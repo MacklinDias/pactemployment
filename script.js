@@ -42,9 +42,10 @@ submitBtn.addEventListener("click", function(){
   progressText[current - 1].classList.add("active");
   current += 1;
   setTimeout(function(){
-    alert("Your Form Successfully Signed up");
+    alert("Your profile has been saved!");
     location.reload();
-  },800);
+  },100);
+  window.open('typing.html','_self');
 });
 
 prevBtnSec.addEventListener("click", function(event){
