@@ -86,6 +86,10 @@ function resetGame() {
     cpmTag.innerText = 0;
 }
 
+function grammarTest () {
+    window.open("./quiz.html");
+}
+
 loadParagraph();
 inpField.addEventListener("input", initTyping);
-tryAgainBtn.addEventListener("click", resetGame);
+tryAgainBtn.addEventListener("click", grammarTest);
