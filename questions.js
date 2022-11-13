@@ -2,13 +2,13 @@
 let questions = [
     {
     numb: 1,
-    question: "What does HTML stand for?",
-    answer: "Hyper Text Markup Language",
+    question: "Water ___  at a temperature of 100°C.",
+    answer: "boils",
     options: [
-      "Hyper Text Preprocessor",
-      "Hyper Text Markup Language",
-      "Hyper Text Multiple Language",
-      "Hyper Tool Multi Language"
+      "is to boil",
+      "is boiling",
+      "boils",
+      "boiled"
     ]
   },
     {
