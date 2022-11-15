@@ -2,7 +2,7 @@
 let questions = [
     {
     numb: 1,
-    question: "Water ___  at a temperature of 100°C.",
+    question: "Water ______ at a temperature of 100°C.",
     answer: "boils",
     options: [
       "is to boil",
@@ -13,46 +13,123 @@ let questions = [
   },
     {
     numb: 2,
-    question: "What does CSS stand for?",
-    answer: "Cascading Style Sheet",
+    question: "In some countries _______ very hot all the time.",
+    answer: "it is",
     options: [
-      "Common Style Sheet",
-      "Colorful Style Sheet",
-      "Computer Style Sheet",
-      "Cascading Style Sheet"
+      "there is",
+      "is",
+      "it is",
+      "is it"
     ]
   },
     {
     numb: 3,
-    question: "What does PHP stand for?",
-    answer: "Hypertext Preprocessor",
+    question: "In cold countries people wear thick clothes ______ warm.",
+    answer: "to keep",
     options: [
-      "Hypertext Preprocessor",
-      "Hypertext Programming",
-      "Hypertext Preprogramming",
-      "Hometext Preprocessor"
+      "for keeping",
+      "to keep",
+      "for to keep",
+      "to keeping"
     ]
   },
     {
     numb: 4,
-    question: "What does SQL stand for?",
-    answer: "Structured Query Language",
+    question: "In England people are always talking about ______.",
+    answer: "the weather",
     options: [
-      "Stylish Question Language",
-      "Stylesheet Query Language",
-      "Statement Question Language",
-      "Structured Query Language"
+      "a weather",
+      "the weather",
+      "weather",
+      "an weather"
     ]
   },
     {
     numb: 5,
-    question: "What does XML stand for?",
-    answer: "eXtensible Markup Language",
+    question: "In some places ______ almost every day.",
+    answer: "it rains",
     options: [
-      "eXtensible Markup Language",
-      "eXecutable Multiple Language",
-      "eXTra Multi-Program Language",
-      "eXamine Multiple Language"
+      "it rains",
+      "there rains",
+      "it raining",
+      "rains"
+    ]
+  },
+  {
+    numb: 6,
+    question: "In deserts there isn´t ______ grass.",
+    answer: "any",
+    options: [
+      "the",
+      "some",
+      "few",
+      "any"
+    ]
+  },
+  {
+    numb: 7,
+    question: "Places near the Equator have ______ weather even in the cold season.",
+    answer: "a warm",
+    options: [
+      "a warm",
+      "warm",
+      "too warm",
+      "the warm"
+    ]
+  },
+  {
+    numb: 8,
+    question: "In England ______ time of year is usually from December to February.",
+    answer: "the coldest",
+    options: [
+      "coldest",
+      "colder",
+      "a cold",
+      "the coldest"
+    ]
+  },
+  {
+    numb: 9,
+    question: "______ people don´t know what it´s like in other countries.",
+    answer: "Most",
+    options: [
+      "Most of",
+      "Most",
+      "The most",
+      "Of most"
+    ]
+  },
+  {
+    numb: 10,
+    question: "Very ______ people can travel abroad",
+    answer: "few",
+    options: [
+      "small",
+      "less",
+      "little",
+      "few"
+    ]
+  },
+  {
+    numb: 11,
+    question: "In some countries students have to spend a lot of time working ______ their own.",
+    answer: "on",
+    options: [
+      "by",
+      "at",
+      "in",
+      "on"
+    ]
+  },
+  {
+    numb: 12,
+    question: "There aren´t ______ easy ways of learning a foreign language in your own country",
+    answer: "any",
+    options: [
+      "no",
+      "any",
+      "none",
+      "some"
     ]
   },
   // you can uncomment the below codes and make duplicate as more as you want to add question
